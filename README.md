@@ -6,7 +6,7 @@ A simple Todo app built using NestJS with JWT authentication.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-github-username>/<repo-name>.git
+   git clone https://github.com/rishabh2311/nestjs-todo-app.git
    ```
 
 2. Install dependencies:
@@ -25,5 +25,8 @@ A simple Todo app built using NestJS with JWT authentication.
 
 - `POST /auth/login`: Login and receive JWT
 - `POST /auth/register`: Register a new user
-- `GET /todos`: Get all todos (protected)
-- `POST /todos`: Create a new todo (protected)
+- `GET /todos`: Get all todo items (protected)
+- `GET /users/me`: Get user (protected)
+- `POST /todos`: Create a new todo item (protected)
+- `PATCH /todos`: Update a specific todo item (protected)
+- `DELETE /todos`: Delete a todo item (protected)
